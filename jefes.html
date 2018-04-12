@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>DARK SOULS 3 TIPS</title>
+<script>
+	function ISeccion(){
+		document.getElementById("inicio").style.color="red";
+	}
+	function CColor1(){
+		document.getElementById("inicio").style.color="orange";
+	}
+	function RColor1(){
+		document.getElementById("inicio").style.color="white";
+	}
+
+
+	function ASeccion(){
+		document.getElementById("armas").style.color="red";
+	}
+	function CColor2(){
+		document.getElementById("armas").style.color="orange";
+	}
+	function RColor2(){
+		document.getElementById("armas").style.color="white";
+	}
+
+
+	function A2Seccion(){
+		document.getElementById("armaduras").style.color="red";
+	}
+	function CColor3(){
+		document.getElementById("armaduras").style.color="orange";
+	}
+	function RColor3(){
+		document.getElementById("armaduras").style.color="white";
+	}
+
+
+	function A3Seccion(){
+		document.getElementById("anillos").style.color="red";
+	}
+	function CColor4(){
+		document.getElementById("anillos").style.color="orange";
+	}
+	function RColor4(){
+		document.getElementById("anillos").style.color="white";
+	}
+
+
+	function JSeccion(){
+		document.getElementById("jefes").style.color="red";
+	}
+	function CColor5(){
+		document.getElementById("jefes").style.color="orange";
+	}
+	function RColor5(){
+		document.getElementById("jefes").style.color="white";
+	}
+
+
+	function ESeccion(){
+		document.getElementById("enemigos").style.color="red";
+	}
+	function CColor6(){
+		document.getElementById("enemigos").style.color="orange";
+	}
+	function RColor6(){
+		document.getElementById("enemigos").style.color="white";
+	}
+</script>
+<style>
+	a{
+		color: white;
+		margin-right: 30px;
+		padding: 20px;
+		margin-left: 10px;
+		padding-bottom: 5px;
+	}
+	a:hover{
+		text-decoration: line-through;
+	}
+	.menu{
+		background-image: url(DSMenu.jpg);
+		background-repeat: no-repeat;
+		position: relative;
+		left: 0.5%;
+		text-align: center;
+		font-size: 30px;
+		width: 1280px;
+		height: 20px;
+		padding: 20px;
+		margin: auto;
+		margin-top: -6%;
+		margin-bottom: 1%;
+		}
+	.banner{
+		margin: -1%;
+		width: 101.40%;
+	}
+	.encabezado{
+		position: relative;
+		top: -145px;
+		left: 42%;
+		color: white;
+		font-family: serif;
+		font-size: 130%;
+	}
+	.contenido{
+		background-image: url(DSTxt.jpg);
+		background-repeat: no-repeat; 
+		position: static;
+		margin-left: 20%;
+		margin-right: 20%;
+		height: 2000px;
+		font-family: serif;
+		font-size: 30px;
+		padding: 3%;
+	}
+	.seccion{
+		color: orange;
+		text-align: left;
+		margin-left: 25%;
+		text-decoration: line-through;
+	}
+	p{
+		text-align: justify;
+	}
+</style>
+</head>
+<body bgcolor="#030303">
+	<div class="principal">
+		<img class="banner" src="DSbanner1.jpg" width="100%">
+			<div class="encabezado">
+				<h1>DARK SOULS lll</h1>
+			</div>
+		<div class="menu">
+			<a href="index.html" id="inicio" onmouseover="CColor1()" onmouseout="RColor1()" onmousedown="ISeccion()">INICIO</a>
+			<a href="" id="armas" onmouseover="CColor2()" onmouseout="RColor2()" onmousedown="ASeccion()">ARMAS</a>
+			<a href="" id="armaduras" onmouseover="CColor3()" onmouseout="RColor3()" onmousedown="A2Seccion()">ARMADURAS</a>
+			<a href="" id="anillos" onmouseover="CColor4()" onmouseout="RColor4()" onmousedown="A3Seccion()">ANILLOS</a>
+			<a href="jefes.html" id="jefes" onmouseover="CColor5()" onmouseout="RColor5()" onmousedown="JSeccion()">JEFES</a>
+			<a href="enemigos.html" id="enemigos" onmouseover="CColor6()" onmouseout="RColor6()" onmousedown="ESeccion()">ENEMIGOS</a>
+		</div>
+		<hr>
+		<h2 class="seccion"><i>JEFES</i></h2>
+		<hr>
+		<div class="contenido">
+			<p>
+				Los Jefes son grandes enemigos que controlan el acceso a otras áreas durante el juego. Algunos jefes son opcionales y otros son obligatorios para poder completar el juego.<br>
+				La mayoría de jefes sueltan almas individuales específicas. Estas pueden ser consumidas para obtener una gran cantidad de almas o pueden ser transpuestas con Ludleth de Courland para obtener armas, escudos o anillos.<br>
+				Una vez que el jefe de un área ha sido derrotado, la cooperación con fantasmas se inhabilitará. Sin embargo, el jugador todavía será capaz de invocar espíritus oscuros o fantasmas locos para PvP. 
+			</p>
+			<br>
+			<h3><i>PRIMEROS 5 JEFES</i></h3>
+			<div class="Jjefes">
+				<div class="jefe1">
+					<img src="">
+					<h5>Iudex Gundyr</h5>
+				</div>
+				<div class="jefe2">
+					<img src="">
+					<h5>Vordt del Valle Boreal</h5>
+				</div>
+				<div class="jefe3">
+					<img src="">
+					<h5>Sabio de cristal</h5>
+				</div>
+				<div class="jefe4">
+					<img src="">
+					<h5>Diáconos de la Oscuridad</h5>
+				</div>
+				<div class="jefe5">
+					<img src="">
+					<h5>Vigilantes del Abismo</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
