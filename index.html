@@ -2,6 +2,72 @@
 <html>
 <head>
 	<title>DARK SOULS 3 TIPS</title>
+<script>
+	function ISeccion(){
+		document.getElementById("inicio").style.color="red";
+	}
+	function CColor1(){
+		document.getElementById("inicio").style.color="orange";
+	}
+	function RColor1(){
+		document.getElementById("inicio").style.color="white";
+	}
+
+
+	function ASeccion(){
+		document.getElementById("armas").style.color="red";
+	}
+	function CColor2(){
+		document.getElementById("armas").style.color="orange";
+	}
+	function RColor2(){
+		document.getElementById("armas").style.color="white";
+	}
+
+
+	function A2Seccion(){
+		document.getElementById("armaduras").style.color="red";
+	}
+	function CColor3(){
+		document.getElementById("armaduras").style.color="orange";
+	}
+	function RColor3(){
+		document.getElementById("armaduras").style.color="white";
+	}
+
+
+	function A3Seccion(){
+		document.getElementById("anillos").style.color="red";
+	}
+	function CColor4(){
+		document.getElementById("anillos").style.color="orange";
+	}
+	function RColor4(){
+		document.getElementById("anillos").style.color="white";
+	}
+
+
+	function JSeccion(){
+		document.getElementById("jefes").style.color="red";
+	}
+	function CColor5(){
+		document.getElementById("jefes").style.color="orange";
+	}
+	function RColor5(){
+		document.getElementById("jefes").style.color="white";
+	}
+
+
+	function ESeccion(){
+		document.getElementById("enemigos").style.color="red";
+	}
+	function CColor6(){
+		document.getElementById("enemigos").style.color="orange";
+	}
+	function RColor6(){
+		document.getElementById("enemigos").style.color="white";
+	}
+</script>
 <style>
 	a{
 		color: white;
@@ -11,21 +77,22 @@
 		padding-bottom: 5px;
 	}
 	a:hover{
-		color: orange;
+		text-decoration: line-through;
 	}
 	.menu{
-		background-image: url(ProyectoFWeb/DSMenu.jpg );
+		background-image: url(DSMenu.jpg);
 		background-repeat: no-repeat;
-		position: absolute;
-		left: 19.2%;
-		top: 15%;
+		position: relative;
+		left: 0.5%;
 		text-align: center;
 		font-size: 30px;
 		width: 1280px;
 		height: 20px;
 		padding: 20px;
 		margin: auto;
-	}
+		margin-top: -6%;
+		margin-bottom: 1%;
+		}
 	.banner{
 		margin: -1%;
 		width: 101.40%;
@@ -39,7 +106,7 @@
 		font-size: 130%;
 	}
 	.contenido{
-		background-image: url(ProyectoFWeb/DSTxt.jpg);
+		background-image: url(DSTxt.jpg);
 		background-repeat: no-repeat; 
 		position: static;
 		margin-left: 20%;
@@ -49,22 +116,31 @@
 		font-size: 30px;
 		padding: 3%;
 	}
+	.seccion{
+		color: orange;
+		text-align: left;
+		margin-left: 25%;
+		text-decoration: line-through;
+	}
 </style>
 </head>
 <body bgcolor="#030303">
 	<div class="principal">
-		<img class="banner" src="ProyectoFWeb/DSbanner1.jpg" width="100%">
+		<img class="banner" src="DSbanner1.jpg" width="100%">
 			<div class="encabezado">
 				<h1>DARK SOULS lll</h1>
 			</div>
 		<div class="menu">
-			<a>INICIO</a>
-			<a>ARMAS</a>
-			<a>ARMADURAS</a>
-			<a>ANILLOS</a>
-			<a>JEFES</a>
-			<a>ENEMIGOS</a>
+			<a id="inicio" onmouseover="CColor1()" onmouseout="RColor1()" onmousedown="ISeccion()">INICIO</a>
+			<a id="armas" onmouseover="CColor2()" onmouseout="RColor2()" onmousedown="ASeccion()">ARMAS</a>
+			<a id="armaduras" onmouseover="CColor3()" onmouseout="RColor3()" onmousedown="A2Seccion()">ARMADURAS</a>
+			<a id="anillos" onmouseover="CColor4()" onmouseout="RColor4()" onmousedown="A3Seccion()">ANILLOS</a>
+			<a id="jefes" onmouseover="CColor5()" onmouseout="RColor5()" onmousedown="JSeccion()">JEFES</a>
+			<a id="enemigos" onmouseover="CColor6()" onmouseout="RColor6()" onmousedown="ESeccion()">ENEMIGOS</a>
 		</div>
+		<hr>
+		<h2 class="seccion"><i>INICIO</i></h2>
+		<hr>
 		<div class="contenido">
 			maincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra aincra puto el que lo lea aincra
 
