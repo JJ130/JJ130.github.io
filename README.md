@@ -9,7 +9,7 @@
 <h3>Práctica #4</h3>
 <a href="https://jj130.github.io/Practica%204/Practica4Bootstrap.html">Imagenes en Bootstrap</a><hr>
 <h3>Práctica #5</h3>
-<a href="https://jj130.github.io/Practica%205/Practica5Bootstrap.html">Menú Bootstrap</a><hr>
+<a href="https://jj130.github.io/Practica%205/Practica5Bootstrap.html">Menú Responsivo</a><hr>
 <h3>Práctica #6</h3>
 <a href="https://jj130.github.io/Practica%206/Practica6Bootstrap.html">Iconos Bootstrap</a><hr>
 <h3>Práctica #7</h3>
