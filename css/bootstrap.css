@@ -1725,6 +1725,10 @@ pre code {
     padding: 15px 0 0 0;
     margin: 15px 0 0 0;
 }
+.comentarios{
+  border: 1px solid lightgray;
+  padding: 1%;
+}
 .container-sky{
   margin-right: auto;
   margin-left: auto;
@@ -2441,8 +2445,29 @@ th {
 .table > tfoot > tr > td {
   padding: 8px;
   line-height: 1.42857143;
-  vertical-align: top;
   border-top: 1px solid #ddd;
+}
+.forum1, .forum4{
+  width: 25px;
+}
+.forum5 a{
+  text-decoration: none;
+}
+.forum5, .forum2{
+  width: 30%;
+}
+@media screen and (max-width: 763px){
+  .forum2, .forum5{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 763px){
+  .forum3{
+    width: 10% !important;
+  }
+}
+.forum3{
+  width: 50%;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -4178,7 +4203,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eee;
+  background-color: #7ab4fe;
   border-color: #337ab7;
 }
 .nav .nav-divider {
@@ -4695,7 +4720,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-family: arial;
   font-size: 13.12pt;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 @media (max-width: 768px){
  .navbar-default{
